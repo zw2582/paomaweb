@@ -1,0 +1,50 @@
+.paomabeijing2 {
+    background-position-y: 0;
+    background-size: 1920px 100%;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    background-image: url(https://www.diandaniu.com/addons/meepo_xianchang/template/mobile/app/images/3dyyy/images/topbg.jpg);
+}
+
+.paomabeijing {
+    background-position-y: 0;
+    background-size: 1920px 100%;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    background-image: url(https://www.diandaniu.com/addons/meepo_xianchang/template/mobile/app/images/3dyyy/images/langan.png);
+}
+
+.countdown_box {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.yyy3d_title_box {
+    background: url(https://www.diandaniu.com/addons/meepo_xianchang/template/mobile/app/images/swimming/images/djs_bg.png) no-repeat;
+    width: 598px;
+    height: 87px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 26px;
+    color: #fff;
+    display: none;
+}
+
+.okplay {
+    -webkit-animation: pmbg2 6s infinite linear normal none;
+}
+
+@-webkit-keyframes pmbg2 {
+    0% {
+        background-position: 0 100%
+    }
+
+    100% {
+        background-position: -1920px 100%
+    }
+}

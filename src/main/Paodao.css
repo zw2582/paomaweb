@@ -1,0 +1,142 @@
+.tracklist {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    background-position-y: 0;
+    background-size: 1920px 100%;
+    background-image: url(https://www.diandaniu.com/addons/meepo_xianchang/template/mobile/app/images/horse/images/bg.jpg);
+}
+.trackline {
+    display: block; 
+    height: 47.3px; 
+    line-height: 47.3px; 
+    font-size: 23.65px;
+}
+.track-start {
+    position: inherit;
+    background-size: contain;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: rgba(255,255,255,.38);
+    font-family: Arial,Helvetica,sans-serif;
+    transform: rotateX(50deg) skewX(-16deg);
+    width: 47.3px; 
+    height: 47.3px;
+}
+.track-end {
+    float: right;
+    position: relative;
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -50px;
+    width: 6px; 
+    height: 47.3px; 
+    display: block;
+    background-image: url(https://www.diandaniu.com/addons/meepo_xianchang/template/mobile/app/images/3dyyy/images/end_line.png);
+}
+.player {
+    position: absolute;
+    overflow: visible;
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    width: 11.9px; 
+    height: 47.3px; 
+    line-height: 47.3px; 
+    font-size: 23.65px; 
+    left: 50%; 
+    display: block;
+}
+.player .pnctx {
+    position: absolute;
+    height: 30px;
+    top: -100px;
+    right: 180px;
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    transform: rotate(22deg);
+    transform-origin: 100% 50% 0;
+}
+.player .head {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background: #fff no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid #fff;
+    transform: rotate(-22deg);
+    transform-origin: 50% 50% 0;
+}
+.player .nickname {
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    white-space: nowrap;
+    position: absolute;
+    top: 2px;
+    right: 68px;
+}
+.lunzib.car0.okplay {
+    background-image: url(http://gamecat.top/paoma/client/img/sm1.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-backface-visibility: visible;
+    -webkit-transform-origin: center center;
+    -webkit-animation: demo010 .5s 0s infinite steps(1);
+}
+.lunzib.car0 {
+    background-image: url(http://gamecat.top/paoma/client/img/sm1.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.lunzib {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    border: 0;
+}
+.yyytp {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+}
+.pnctx::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 0;
+    position: absolute;
+    border-top: 1px dashed #fff;
+    top: 25px;
+    right: -50px;
+    transform: rotate(5deg);
+    transform-origin: 100% 50% 0;
+}
+.okplay {
+    -webkit-animation: pmbg2 6s infinite linear normal none;
+}
+@-webkit-keyframes pmbg2 {
+    0% {
+        background-position: 0 100%
+    }
+
+    100% {
+        background-position: -1920px 100%
+    }
+}
+.road{
+    width: 80%;
+    /* border:1px solid red; */
+    position: relative;
+    margin: auto;
+    left: 100px;
+}
